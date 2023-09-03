@@ -1,0 +1,431 @@
+.ad h1{
+    font-size: 50px;
+    text-align: center;
+}
+.ae{
+    height: 75px;
+    background-color: rgb(191, 189, 189);
+    /* position: absolute; */
+}
+.ae ul{
+    display: flex;
+    justify-content: center;
+    /* list-style: none; */
+    /* padding-right: 200px;
+    padding-right: 200px; */
+}
+.ae li{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    /* color: rgb(58, 58, 58); */
+    text-transform: uppercase;
+    text-align: center;
+}
+.ae a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(69, 67, 67);
+}
+
+/* 2nd part */
+.ag{
+   text-align: center;
+}
+.ag h1{
+    font-size: 44px;
+}
+.ag p{
+    font-size: 22px;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+/* 3rd part */
+.ah{
+    padding-left: 180px;
+    padding-right: 180px;
+}
+.ai img{
+    height: 415px;
+    width: 585px;
+    float:right;
+}
+.ai{
+    display: flex;
+}
+.aj{
+    padding-left: 90px;
+    padding-right:50px;
+}
+.aj h1{
+    font-size: 38px;
+}
+.aj p{
+    font-size: 22px;
+}
+.aj h3{
+    font-size: 30px;
+    color: orangered;
+    position: relative;
+    cursor: pointer;
+}
+.aj h3:before{
+    content: "";
+    background-color: orangered;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    transition: ease-in-out 0.3s;
+
+}
+.aj h3:hover::before{
+    width: 160px;
+}
+.aj h3:hover{
+    color: orange;
+}
+
+/* 4th part */
+.ak{
+    /* display: flex; */
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-top: 20px;
+}
+.al img{
+    height: 415px;
+    width: 585px;
+float: right;
+}
+.al{
+    display: flex;
+}
+.am{
+    padding-left: 80px;
+}
+.am h1{
+    font-size: 38px;
+}
+.am p{
+    font-size: 22px;
+}
+.am h3{
+    font-size: 30px;
+    color: orangered;
+    position: relative;
+    cursor: pointer;
+}
+.am h3:before{
+    content: "";
+    background-color: orangered;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    transition: ease-in-out o.3s;
+}
+.am h3:hover::before{
+    width: 150px;
+}
+.am h3:hover{
+    color: orange;
+}
+
+/* 5th part */
+.an{
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-top: 20px;
+}
+.ao{
+    display: flex;
+}
+.ao img{
+    width: 585px;
+    height: 415px;
+    float: right;
+}
+.app{
+    margin-left: 80px;
+}
+.app h1{
+    font-size: 38px;
+}
+.app p{
+    font-size: 22px;
+}
+.app h3{
+    font-size: 30px;
+    color: orangered;
+    position: relative;
+    cursor: pointer;
+}
+.app h3:before{
+    content: "";
+    background-color: orangered;
+    position: absolute;
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    transition: ease-in-out 0.3s;
+}
+.app h3:hover::before{
+    width: 230px;
+}
+.app h3:hover{
+    color: orange;
+}
+
+/* 6th part */
+.aqq{
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-top: 20px;
+}
+.arr{display: flex;}
+.arr img{
+    width: 585px;
+    height: 415px;
+    float: right;
+}
+.ass h1{
+    font-size: 38px;
+
+}
+.ass{
+    margin-left: 80px;
+}
+.ass p{
+    font-size: 22px;
+}
+.ass h3{
+    font-size: 30px;
+    color: orangered;
+    position: relative;
+    cursor: pointer;
+}
+.ass h3:before{
+    content:"";
+    background-color: orangered;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    transition: ease-in-out 0.3s;
+}
+.ass h3:hover::before{
+    width: 180px;
+}
+.ass h3:hover{
+    color: orange;
+}
+
+/* 7th part */
+.att{
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-top: 20px;
+}
+.auu{
+    display: flex;
+}
+.auu img{
+    width: 585px;
+    height: 415px;
+    float: right;
+}
+.avv{
+    margin-left: 80px;
+}
+.avv h1{
+    font-size: 38px;
+}
+.avv p{
+    font-size: 22px;
+}
+.avv h3{
+    font-size: 30px;
+    color: orangered;
+    cursor: pointer;
+    position: relative;
+}
+.avv h3:before{
+    content: "";
+    background-color: orangered;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    transition: ease-in-out 0.3s;
+
+}
+.avv h3:hover::before{
+    width: 150px;
+}
+.avv h3:hover{
+    color: orange;
+}
+
+/* 8th part */
+.aww{
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-top: 20px;
+}
+.axx{
+    display: flex;
+}
+.axx img{
+    width: 585px;
+    height: 415px;
+    float: right;
+}
+.ayy{
+    margin-left: 20px;
+}
+.ayy h1{
+    font-size: 38px;
+}
+.ayy p{
+    font-size: 22px;
+}
+.ayy h3{
+    font-size: 30px;
+    color: orangered;
+    position: relative;
+    cursor: pointer;
+}
+.ayy h3:before{
+    content:"";
+    background-color: orangered;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    transition: ease-in-out 0.3s;
+}
+.ayy h3:hover::before{
+    width: 140px;
+}
+.ayy h3:hover{
+    color: orange;
+}
+
+/* 8th part */
+.azz{
+    margin-top: 20px;
+    background-color: rgb(202, 206, 207);
+    height: 200px;
+}
+.aaa p{
+    font-size: 38px;
+    text-align: center;
+padding-top: 20px;
+padding-left: 120px;
+padding-right: 120px;
+}
+
+/* footer part */
+
+.ap{
+    background-color: rgb(234, 233, 233);
+    /* margin-top: 5px; */
+    height:400px;
+}
+.aq img{
+    width: 173px;
+    height: auto;
+    /* margin-bottom: 15px; */
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    margin-top: 35px;
+    margin-left: 125px;
+}
+.social h4{
+    font-size: 25px;
+}
+.social{
+    margin-left: 125px;
+}
+.social a{
+    width: 25px;
+    height: 25px;
+    float: none;
+    display: inline-block;
+    font-weight: inherit;
+    font-size: 12px !important;
+    line-height: 27px !important;
+    color: #fff !important;
+    text-align: center;
+    text-decoration: none;
+    background: #ff5100;
+    border-radius: 360px;
+}
+.av{
+    display: flex;
+}
+.at img{
+    height:25px;
+    width: 25px;
+}
+.ar h2{
+    font-size: 22px;
+    line-height: normal;
+    border-bottom: 1px solid #2b2b2b;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 13px;
+    padding-bottom: 6px
+}
+.as li{
+    /* font-size: 18px;
+    line-height: 1.2; */
+    white-space: 30px;
+    font-size: 20px;
+    list-style: none;
+}
+.at h2{
+    font-size: 22px;
+    line-height: normal;
+    border-bottom: 1px solid #2b2b2b;
+    text-transform: uppercase;
+    font-weight: 700;
+    /* margin-bottom: 13px; */
+    padding-bottom: 6px;
+    padding-right: 10px;
+    margin-left: 150px;
+}
+.at h4{
+    margin-left: 150px;
+
+}
+.ar h2{
+    margin-left: 140px;
+}
+.ar ul{
+    display: flexbox;
+    white-space: 30px;
+    margin-left: 140px;
+}
+.as{
+    display: flex;
+}
+.au{
+    margin-left: 125px;
+
+}
+.as li:hover{
+    color: #ff5100;
+}
+.aw:hover{
+    color: #ff5100;
+}

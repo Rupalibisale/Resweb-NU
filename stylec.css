@@ -1,0 +1,258 @@
+.ac img{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: 0 0;
+}
+.ac{
+    text-align: center;
+    /* padding-bottom: 10;
+    color: #2b2b2b;
+    padding: 0 0 15px; */
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 20px;
+
+}
+.ae h1{
+    text-align: center;
+    font-size: 34px;
+}
+.ae p{
+    text-align: center;
+    font-size: 22px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+/* 2nd part */
+.ag{
+    display: flex;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-top: 100px;
+}
+.ah img{
+    width: 585px;
+    height: 415px;
+    float: right;
+}
+.ai h1{
+    font-size: 33px;
+}
+.ai p{
+    font-size: 24px;
+}
+.ai h3{
+    color: orangered;
+    font-size: 28px;
+    position: relative;
+    cursor: pointer;
+}
+.ai h3:hover{
+    color: orange;
+}
+.ai h3:before{
+    content: "";
+    background-color: orangered;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    transition: ease-in-out 0.3s;
+}
+.ai h3:hover::before{
+    width:140px; 
+    /* width: 15% */ 
+}
+
+/* 3rd part */
+.aj{
+    display: flex;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-top: 100px;
+}
+.ak img{
+    width: 585px;
+    height: 415px;
+    float: left;
+}
+.ak{
+    display: flex;
+}
+.al h1{
+    font-size: 33px;
+}
+.al p{
+    font-size: 24px;
+}
+.al h3{
+    font-size: 28px;
+    color: orangered;
+    position: relative;
+    cursor: pointer;
+}
+.al h3:hover{
+    color: orange;
+}
+.al h3:before{
+    content: "";
+    background-color: orangered;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    transition: ease-in-out 0.3s;
+}
+.al h3:hover::before{
+    width: 140px
+}
+.al{
+    margin-left: 90px;
+}
+
+/* 4th part */
+.am{
+    background-color: rgb(218, 237, 244);
+    height: 300px;
+    margin-top: 100px;
+}
+.an{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    
+}
+
+/* 5th part */
+.app img{
+    max-width: 1600px;
+    float: none;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 12%);
+    left: auto;
+    clear: both;
+}
+.aqq{
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    width: 100%;
+    color: #f8f6f6;
+    background-color: rgb(57, 56, 56);
+    font-size: 22px;
+    line-height: 3px;
+    background-size: cover;
+    padding: 115px 0;
+
+    
+}
+.aqq p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* 6th part footer part*/
+
+.ap{
+    background-color: rgb(234, 233, 233);
+    margin-top: 70px;
+    height:400px;
+}
+.aq img{
+    width: 173px;
+    height: auto;
+    /* margin-bottom: 15px; */
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    margin-top: 35px;
+    margin-left: 125px;
+}
+.social h4{
+    font-size: 25px;
+}
+.social{
+    margin-left: 125px;
+}
+.social a{
+    width: 25px;
+    height: 25px;
+    float: none;
+    display: inline-block;
+    font-weight: inherit;
+    font-size: 12px !important;
+    line-height: 27px !important;
+    color: #fff !important;
+    text-align: center;
+    text-decoration: none;
+    background: #ff5100;
+    border-radius: 360px;
+}
+.av{
+    display: flex;
+}
+.at img{
+    height:25px;
+    width: 25px;
+}
+.ar h2{
+    font-size: 22px;
+    line-height: normal;
+    border-bottom: 1px solid #2b2b2b;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 13px;
+    padding-bottom: 6px
+}
+.as li{
+    /* font-size: 18px;
+    line-height: 1.2; */
+    white-space: 30px;
+    font-size: 20px;
+    list-style: none;
+}
+.at h2{
+    font-size: 22px;
+    line-height: normal;
+    border-bottom: 1px solid #2b2b2b;
+    text-transform: uppercase;
+    font-weight: 700;
+    /* margin-bottom: 13px; */
+    padding-bottom: 6px;
+    padding-right: 10px;
+    margin-left: 150px;
+}
+.at h4{
+    margin-left: 150px;
+
+}
+.ar h2{
+    margin-left: 140px;
+}
+.ar ul{
+    display: flexbox;
+    white-space: 30px;
+    margin-left: 140px;
+}
+.as{
+    display: flex;
+}
+.au{
+    margin-left: 125px;
+
+}
+.as li:hover{
+    color: #ff5100;
+}
+.aw:hover{
+    color: #ff5100;
+}

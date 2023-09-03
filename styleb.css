@@ -1,0 +1,202 @@
+.ad{
+    height: 400px;
+    background-color: rgb(229, 226, 226);
+}
+.af{
+    font-size: 40px;
+    text-align: center;
+}
+.ag{
+    text-align: center;
+    font-size: 30px;
+}
+.ai p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 265px;
+    margin-right: 265px;
+
+}
+.aj{
+    display: flex;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-top: 100px;
+}
+.ak img{
+    height: 415px;
+    width: 585px;
+    float: right;
+}
+.al h2{
+    font-size: 30px;
+}
+.al p{
+    font-size: 22px;
+}
+
+/* for the underline hover */
+.al h3{
+    margin-top: 80px;
+    font-size: 27px;
+    color: rgb(218, 38, 38);
+    position: relative;
+    cursor: pointer;
+}
+.al h3::before{
+    content: "";
+    background-color: brown;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    transition: ease-in-out o.3s;
+
+}
+.al h3:hover::before{
+    width: 12%;
+}
+.al h3:hover{
+    color: rgb(248, 156, 156);
+}
+/* underline hover above */
+.am{
+    display: flex;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-top: 100px;
+}
+.an img{
+    width: 585px;
+    height: 415px;
+    float: left;
+    }
+.ao h2{
+    font-size: 30px;
+}  
+.ao p{
+    font-size: 22px;
+}  
+.ao{
+    padding-left: 700px;
+    padding-right: 20px;
+}
+.ao h3{
+    font-size: 27px;
+    position: relative;
+    cursor: pointer;
+    color: rgb(213, 47, 47);
+}
+.ao h3:before{
+    content:"";
+    background-color: brown;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width:0;
+    transition: ease-in-out 0.3s;
+}
+.ao h3:hover::before{
+    width:65%;
+}
+.ao h3:hover{
+    color: rgb(235, 153, 153);
+}
+
+/* footer part */
+.ap{
+    background-color: rgb(234, 233, 233);
+    margin-top: 70px;
+    height:400px;
+}
+.aq img{
+    width: 173px;
+    height: auto;
+    /* margin-bottom: 15px; */
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    margin-top: 35px;
+    margin-left: 125px;
+}
+.social h4{
+    font-size: 25px;
+}
+.social{
+    margin-left: 125px;
+}
+.social a{
+    width: 25px;
+    height: 25px;
+    float: none;
+    display: inline-block;
+    font-weight: inherit;
+    font-size: 12px !important;
+    line-height: 27px !important;
+    color: #fff !important;
+    text-align: center;
+    text-decoration: none;
+    background: #ff5100;
+    border-radius: 360px;
+}
+.av{
+    display: flex;
+}
+.at img{
+    height:25px;
+    width: 25px;
+}
+.ar h2{
+    font-size: 22px;
+    line-height: normal;
+    border-bottom: 1px solid #2b2b2b;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 13px;
+    padding-bottom: 6px
+}
+.as li{
+    /* font-size: 18px;
+    line-height: 1.2; */
+    white-space: 30px;
+    font-size: 20px;
+    list-style: none;
+}
+.at h2{
+    font-size: 22px;
+    line-height: normal;
+    border-bottom: 1px solid #2b2b2b;
+    text-transform: uppercase;
+    font-weight: 700;
+    /* margin-bottom: 13px; */
+    padding-bottom: 6px;
+    padding-right: 10px;
+    margin-left: 150px;
+}
+.at h4{
+    margin-left: 150px;
+
+}
+.ar h2{
+    margin-left: 140px;
+}
+.ar ul{
+    display: flexbox;
+    white-space: 30px;
+    margin-left: 140px;
+}
+.as{
+    display: flex;
+}
+.au{
+    margin-left: 125px;
+
+}
+.as li:hover{
+    color: #ff5100;
+}
+.aw:hover{
+    color: #ff5100;
+}
